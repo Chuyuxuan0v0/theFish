@@ -1,0 +1,61 @@
+.slider{
+  padding-top: 5%;
+  width: 95%;
+  margin: 50rpx auto;
+}
+.bar_value{
+  display: inline;
+  font-size: 50rpx;
+
+}
+.taskText{
+  text-align: center;
+  font-family: '华文中宋', Times, serif;
+}
+.taskText .taskTitle{
+  font-size: 65rpx;
+font-weight: bold;
+}
+.taskText .taskDesc{
+  font-size: 30rpx;
+  line-height: 100rpx;
+}
+.cate{
+padding-top: 150rpx;
+  width: 660rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cate .cate_item{
+  width: 220rpx;
+  height: 130rpx;
+  text-align: center;
+  font-family: '华文中宋', Times, serif;
+  margin-bottom: 100rpx;
+}
+.cate .cate_item .cate_icon{
+  height: 70rpx;
+}
+.cate .cate_item .cate_icon image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.cate .cate_item .cate_text{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.startButton{
+  padding-bottom: 20rpx;
+  margin-top: 20rpx;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200rpx;
+  height: 50rpx;
+  background-color: black;
+  border-radius: 20rpx;
+  color: white;
+  line-height: 70rpx;
+  text-align: center;
+}
